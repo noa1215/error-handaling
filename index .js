@@ -64,7 +64,7 @@ function safeCalculator(a, b, operation){
 
 }
 try {
-    calculator(5, "3", "add");
+    safeCalculator(5, "3", "add");
 } catch (error) {
     console.log(error.message);
 }
